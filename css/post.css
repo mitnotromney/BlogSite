@@ -1,0 +1,10 @@
+.post_content{
+    width: 80vw;
+    height: 100%;
+    padding: 5em;
+    margin-left: 10%;
+}
+
+.post_para{
+    line-height: 3em;
+}

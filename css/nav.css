@@ -1,0 +1,66 @@
+ul {
+  list-style: none;
+  line-height: 10vh;
+  vertical-align: middle;
+  display: flex;
+  float: right;
+  margin-right: 15%;
+}
+
+ul li {
+  display: inline;
+}
+
+#top_nav{
+  grid-area: tn;
+  display: grid;
+  grid-column: 5vw 95vw;
+  grid-row: 100%;
+  grid-template-areas:
+  "hob navl";
+  width: 100%;
+}
+
+#top_home_container{
+  grid-area: hob;
+  width: 100%;
+  height: 10vh;
+}
+
+
+#top_home{
+  display: block;
+  height: 75px;
+  width: 75px;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+#top_home:hover{
+  cursor: pointer;
+}
+
+#nav_container{
+  grid-area: navl;
+  width: 100%;
+  height: 100%;
+}
+
+#nav_list > li{
+  margin-right: 5%;
+  padding:20px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+#nav_home{
+  order: 1;
+}
+
+#nav_posts{
+  order: 2;
+}
+
+#nav_subscribe{
+  order: 3;
+}

@@ -1,0 +1,11 @@
+#footer{
+    grid-area: ft;
+    display: flex;
+    justify-content: center;
+    background-color: #66b3b3;
+}
+
+#footer_text{
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
